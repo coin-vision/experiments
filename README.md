@@ -1,6 +1,9 @@
 # Computer Vision experiments on coinshome.net datasets
 
 
+#### [Test micro dataset with Inception V3 - micro-inception3-2019.02.04.ipynb](https://github.com/coin-vision/experiments/blob/master/experiments/micro-inception3-2019.02.04.ipynb)
+
+#### [Test mini dataset with Inception V3 - mini-inception3-2019.02.06.ipynb](https://github.com/coin-vision/experiments/blob/master/experiments/mini-inception3-2019.02.06.ipynb)
 
 #### [Test medium dataset with Inception V3  - medium-inception3-2019.02.10.ipynb](https://github.com/coin-vision/experiments/blob/master/experiments/medium-inception3-2019.02.10.ipynb)
 
@@ -41,7 +44,3 @@ history = model.fit_generator(train_gen,
                               
 ```
 
-#### [Test mini dataset with Inception V3 - mini-inception3-2019.02.06.ipynb](https://github.com/coin-vision/experiments/blob/master/experiments/mini-inception3-2019.02.06.ipynb)
-
-
-#### [Test micro dataset with Inception V3 - micro-inception3-2019.02.04.ipynb](https://github.com/coin-vision/experiments/blob/master/experiments/micro-inception3-2019.02.04.ipynb)
