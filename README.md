@@ -23,4 +23,20 @@ Epoch 2/3
 45939/79556 [================>.............] - ETA: 12:45:05 - loss: 0.0582 - acc: 0.9811 - top_k_categorical_accuracy: 0.9993
 
 ```
+
 TODO: firs level augmentation can be much less (e.g. exclude rotation because it's used in keras ImageDataGenerator)
+
+interesting that model.fit_generator() doesn't work with 'validation_data' when 'validation_data' doesn't have data for all classes. So, validation check was commented out for that run 
+ 
+```
+
+history = model.fit_generator(train_gen, 
+                              epochs=train_epochs, 
+                              steps_per_epoch=tr_steps_per_epoch,
+                              shuffle=True, 
+                              verbose=True,
+#                              validation_data=test_gen,
+#                              validation_steps=validation_steps, # fix me later if works
+                              callbacks=callbacks_list)
+                              
+```
